@@ -1,0 +1,105 @@
+/* App */
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dice */
+.Dice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.button-box {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.roll-dice-btn {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(116, 192, 255);
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice1 {
+  width: 50px;
+  height: 50px;
+  background-repeat: round;
+  background-image: url("./Image/dice/dice1.png");
+}
+
+.dice2 {
+  width: 50px;
+  height: 50px;
+  background-repeat: round;
+  background-image: url("./Image/dice/dice2.png");
+}
+.dice3 {
+  width: 50px;
+  height: 50px;
+  background-repeat: round;
+  background-image: url("./Image/dice/dice3.png");
+}
+.dice4 {
+  width: 50px;
+  height: 50px;
+  background-repeat: round;
+  background-image: url("./Image/dice/dice4.png");
+}
+.dice5 {
+  width: 50px;
+  height: 50px;
+  background-repeat: round;
+  background-image: url("./Image/dice/dice5.png");
+}
+.dice6 {
+  width: 50px;
+  height: 50px;
+  background-repeat: round;
+  background-image: url("./Image/dice/dice6.png");
+}
+/* Score */
+.Score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-box {
+  display: flex;
+  width: 20vw;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playeractive {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(116, 192, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerinactive {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(217, 237, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
